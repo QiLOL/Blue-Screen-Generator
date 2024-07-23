@@ -8,9 +8,9 @@
     "build:dev": "webpack --mode=development"
   },
   "keywords": [],
-  "author": "",
+  "author": "QiLOL",
   "license": "ISC",
-  "description": "",
+  "description": "This is a project to generate a blue-screen-like phone wallpaper.",
   "devDependencies": {
     "@types/qrcode": "^1.5.0",
     "css-loader": "^6.7.3",
@@ -26,5 +26,13 @@
     "@types/html2canvas": "^1.0.0",
     "html2canvas": "^1.4.1",
     "qrcode": "^1.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QiLOL/Blue-Screen-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QiLOL/Blue-Screen-Generator/issues"
+  },
+  "homepage": "https://github.com/QiLOL/Blue-Screen-Generator#readme"
 }
