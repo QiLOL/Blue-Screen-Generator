@@ -23,7 +23,7 @@ npm i
 Run locally:
 ```console
 npm start
-``
+```
 
 
 ## :warning:**Disclaimer**:warning:
