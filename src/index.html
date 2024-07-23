@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Blue Screen Generator</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="preview-container">
+            <div id="preview">
+                <div id="smiley">:)</div>
+                <div id="content">
+                    <div id="message"></div>
+                    <div id="message2"></div>
+                    <div id="progress"></div>
+                    <div id="qr-container">
+                        <canvas id="qrcode"></canvas>
+                        <div id="qr-text-container">
+                            <div id="qrText1"></div>
+                            <div id="qrText2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="input-container">
+            <input type="number" id="smileyTopInput" placeholder="Smiley distance from top (px)" min="0" value="250">
+            <input type="text" id="messageInput" placeholder="Enter your first message">
+            <input type="text" id="message2Input" placeholder="Enter your second message">
+            <input type="number" id="progressInput" placeholder="Enter progress percentage" min="0" max="100">
+            <input type="text" id="qrInput" placeholder="Enter QR code content">
+            <textarea id="qrText1Input" placeholder="Enter first text near QR code (use \n for new lines)"></textarea>
+            <textarea id="qrText2Input" placeholder="Enter second text near QR code (use \n for new lines)"></textarea>
+            <button id="updateButton">Update Screen</button>
+            <button id="downloadButton">Download Image</button>
+            <div id="bulletin-board">
+                <h3>Note</h3>
+                <ul>
+                    <li>Hope you recover from the blue screen day and start a new day from smile.</li>
+                    <li>Of course, stocks need some time...</li>
+                    <li>I am bad on front end and this app purely developed with @Claude</li>
+                    <li class="highlight">Customize QR code may provide more context. And please don't be evil (like phishing) !!!!!!</li>
+                    <li>Enjoy!</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
